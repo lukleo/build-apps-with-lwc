@@ -1,0 +1,26 @@
+{
+  "name": "build-apps-with-lwc",
+  "version": "1.0.0",
+  "description": "We are not accepting contributions on this app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:unit": "sfdx-lwc-jest",
+    "test:unit:debug": "sfdx-lwc-jest --debug",
+    "test:unit:coverage": "sfdx-lwc-jest --coverage",
+    "test:unit:watch": "sfdx-lwc-jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukleo/build-apps-with-lwc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukleo/build-apps-with-lwc/issues"
+  },
+  "homepage": "https://github.com/lukleo/build-apps-with-lwc#readme",
+  "devDependencies": {
+    "@salesforce/sfdx-lwc-jest": "^1.1.0"
+  }
+}

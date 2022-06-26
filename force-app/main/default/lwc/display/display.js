@@ -1,3 +1,10 @@
+/**
+ * @description       :
+ * @author            : Lucas Santos - Accenture
+ * @group             :
+ * @last modified on  : 06-25-2022
+ * @last modified by  : Lucas Santos - Accenture
+**/
 import { LightningElement } from 'lwc';
 
 export default class Display extends LightningElement {
@@ -10,16 +17,16 @@ export default class Display extends LightningElement {
         { label: '2', value: 2 },
     ];
   }
-  
+
   handleAugmentorChange(event) {
-    this.augmentor = event.target.value;
+    this.augmentor = parseInt(event.target.value);
   }
 
   handleIncrement(event) {
     const operand = event.detail;
     this.counter += operand;
   }
-  
+
   handleDecrement(event) {
     const operand = event.detail;
     this.counter -= operand;

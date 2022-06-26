@@ -2,7 +2,7 @@
     @description       :
     @author            : Lucas Santos - Accenture
     @group             :
-    @last modified on  : 06-23-2022
+    @last modified on  : 06-25-2022
     @last modified by  : Lucas Santos - Accenture
 -->
 <template>
@@ -13,11 +13,11 @@
         <p class="slds-text-align_center slds-var-m-vertical_medium">
             Prior Count: <lightning-formatted-number value={priorCount}></lightning-formatted-number>
           </p>
-        <c-controls
+        <c-controls-calc
         class="slds-show slds-is-relative"
         onadd={handleIncrement}
         onsubtract={handleDecrement}
         onmultiply={handleMultiply}
-        ></c-controls>
+        ></c-controls-calc>
     </lightning-card>
 </template>
